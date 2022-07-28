@@ -1,0 +1,41 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+  padding-left: 10px;
+  padding-bottom: 20px;
+  width: 400px;
+}
+.label {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+}
+.input {
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 2px solid grey;
+  outline: transparent;
+  padding: 5px;
+}
+.input:focus {
+  border: 2px solid whitesmoke;
+}
+.btn {
+  /* background-color: transparent; */
+  outline: transparent;
+  padding: 4px 10px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  cursor: pointer;
+}
+
+.btn:active {
+  background-color: blanchedalmond;
+  color: whitesmoke;
+}
+.btn:focus,
+.btn:hover {
+  outline: 1px solid blanchedalmond;
+}
