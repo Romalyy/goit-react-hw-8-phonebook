@@ -2,7 +2,7 @@
   display: flex;
   align-items: baseline;
   gap: 10px;
-  color: rgb(78, 70, 70);
+  color: var(--link);
 }
 
 .email {
@@ -20,7 +20,7 @@
 
 .btn:hover,
 :focus {
-  color: rgb(245, 222, 179);
+  color: var(--bcg-btn-hover);
   background-color: transparent;
-  outline: 2px solid rgb(100, 92, 92);
+  outline: 2px solid var(--btn-outline);
 }

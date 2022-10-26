@@ -1,5 +1,6 @@
 .title {
   font-size: 38px;
+  color: var(--text-primary);
 }
 
 .wrapper {

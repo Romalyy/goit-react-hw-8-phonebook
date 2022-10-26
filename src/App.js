@@ -8,6 +8,7 @@ import UserRoutes from "./UserRoutes";
 
 import "./index.css";
 
+
 const App = () => {
   const dispatch = useDispatch();
 
@@ -15,10 +16,15 @@ const App = () => {
     dispatch(getCurrentUser());
   }, [dispatch]);
 
+
+
   return (
     <>
+      <div >
       <Header />
+          
       <UserRoutes />
+      </div>
     </>
   );
 };

@@ -1,7 +1,7 @@
 .link {
   font-size: 20px;
   text-decoration: none;
-  color: rgb(78, 70, 70);
+  color: var(--link);
   padding: 10px;
   font-weight: 600;
   outline: transparent;
@@ -13,6 +13,6 @@
 
   padding: 10px;
   font-weight: 700;
-  color: wheat;
+  color: var(--link-active);
   transition: all 1s ease-out;
 }
